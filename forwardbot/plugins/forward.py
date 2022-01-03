@@ -207,24 +207,24 @@ async def handler(event):
                                 pass
                     else:
                         print(f"You have send {MessageCount} messages" )
-                        print("Waiting for 10 mins")
+                        print("Waiting for 20 mins")
                         status.add("2")
                         status.remove("1")
-                        await m.edit(f"You have send {MessageCount} messages.\nWaiting for 10 minutes.")
-                        await asyncio.sleep(600)
+                        await m.edit(f"You have send {MessageCount} messages.\nWaiting for 20 minutes.")
+                        await asyncio.sleep(1200)
                         mcount = 991
-                        print("Starting after 10 mins")
-                        await m.edit("Starting after 10 mins")
+                        print("Starting after 20 mins")
+                        await m.edit("Starting after 20 mins")
                 else:
                     print(f"You have send {MessageCount} messages")
                     print("Waiting for 30 mins")
                     status.add("2")
                     status.remove("1")
-                    await m.edit(f"You have send {MessageCount} messages.\nWaiting for 1 hour.")
-                    await asyncio.sleep(3600)
+                    await m.edit(f"You have send {MessageCount} messages.\nWaiting for 2 hour.")
+                    await asyncio.sleep(7200)
                     count = 3593
-                    print("Starting after 1 hour")
-                    await m.edit("Starting after 1 hour")
+                    print("Starting after 2 hour")
+                    await m.edit("Starting after 2 hour")
                     
         except ValueError:
             await m.edit("You must join the channel before starting forwarding. Use /join")
