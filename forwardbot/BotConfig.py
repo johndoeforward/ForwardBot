@@ -1,10 +1,10 @@
 from os import environ
 class Config(object):
-    API_ID = "11074643"
-    API_HASH = "529aa3cb16fbdfc3e0f1c0d19391f798"
-    BOT_TOKEN = "5013169201:AAHE72RqsW8bx0m6_Xt5eTpkrC7ATmJEPHc"
-    STRING_SESSION = "1AZWarzYBu1jr3Ia43BlTwkbMrZ8sWU3bp-QglNox8OB7iUYjAfjn3XtTUWq7kOq0xNEl7zwpcTJPNrR_N2cCeleMxwwMfvOXSiOWeBEiJmbIPB50elJDtk2f0etFrc5Oklt7A5xD-m3AKaolWZ9coi59B9j1euIs_-BGgf8d70iRxr6oLQR71aRTxcsSxSSl6uej2z3H6iqdL-jcph-1bn8OMifR-9a9a8Uu4A9Jj-q3zW8ZnVdcRDbeb6JDIPrS6hHrEXKkBmddrzQE3UlsWhcs_DQpplS_8AxEtLeEb-5Iw1JKJmbfP8AAB6CIaNcEhJoH40v1pakZEpVETr50hk7PYw0mtfE="
-    SUDO_USERS = "5092767370"
+    API_ID = "16226233"
+    API_HASH = "c0f07f2b09573a2e09e62f6085f507ad"
+    BOT_TOKEN = "5018774285:AAF11VqQmvW6clN3LIgtND_FH1XozKqri24"
+    STRING_SESSION = "1AZWarzQBu73UmBkx8SfxRNldkK97ysuNUEuh48K07zIqHz29tKI6K4t7xR2e6onro3Ccm5I5lrKVM9jiGbUj2geXFZrDxhyI7Sf5fH6cwgdczehD0NxxotZ45OJJ5-IsPt_R00ThX-i3z1dYNDyMEvbv8I3mRNlZgJOZTy9gqiYUGgPYSVktaKvGahIYzQUEi8lirvHUpte1GISRn_25odliqby000cZTVotKDV3QkxAN5g9upldlbpQ3kka-SWAJLpMW4N_P8Jd4njK1bRcEd-f7h_T2qIZiauwSDfYzQGw0rNtiaGBqDZfu2tQn-FxtsR5dAOwanmkQ96JJusrOWKkw5ttW2o="
+    SUDO_USERS = "5051694197"
     COMMAND_HAND_LER = environ.get("COMMAND_HAND_LER", "^/")
     HELP_MSG = """
     The Commands in the bot are:
