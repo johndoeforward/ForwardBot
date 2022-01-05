@@ -156,7 +156,7 @@ async def handler(event):
                     if mcount:
                         if media_type(message) == type or type == 'All':
                             try:
-                                if media_type(message) == 'Document':
+                                if media_type(message) == 'Document' and 1 == 2:
                                     await client.send_file(tochat, message.document)
                                     try:
                                         if len(str(message.file.name)) <= 95:
