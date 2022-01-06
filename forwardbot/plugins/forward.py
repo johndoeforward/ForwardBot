@@ -207,14 +207,14 @@ async def handler(event):
                                 pass
                     else:
                         print(f"You have send {MessageCount} messages" )
-                        print("Waiting for 45 mins")
+                        print("Waiting for 1 hour")
                         status.add("2")
                         status.remove("1")
-                        await m.edit(f"You have send {MessageCount} messages.\nWaiting for 45 minutes.")
-                        await asyncio.sleep(2700)
+                        await m.edit(f"You have send {MessageCount} messages.\nWaiting for 1 hour.")
+                        await asyncio.sleep(3600)
                         mcount = 991
-                        print("Starting after 45 mins")
-                        await m.edit("Starting after 45 mins")
+                        print("Starting after 1 hour")
+                        await m.edit("Starting after 1 hour")
                 else:
                     print(f"You have send {MessageCount} messages")
                     print("Waiting for 2 hours")
