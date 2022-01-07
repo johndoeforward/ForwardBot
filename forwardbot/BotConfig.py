@@ -1,10 +1,10 @@
 from os import environ
 class Config(object):
-    API_ID = "15312263"
-    API_HASH = "8de06ac6a6d9becf69e7558f12132b74"
-    BOT_TOKEN = "5098404525:AAES7-avl8ttz80pb2KHmD0rJ15urWr1aq8"
-    STRING_SESSION = "1AZWarzcBu0H9VOSmZtxcB0qlAVy3AJzlAbzCImsMO1U7yi2umBoeQ1bwO5m4De-583Zkfmo14oCWEyOgiykv58a6kTUrhV1DescJvO_Qpuj5uq_O51xkJiVZFDNVyP2QPB6iqtS4cBfwsYVfWW0xge98f9ockdI63jGZrALVVZWwCo1darZcSu-LhLMPmc4r9Lwhh99D4UXBN9Qz1w8QSMmwnAYPuS4J9Cu0ybOMM2rzJx_LVqwYdDO2lzLYIVQk4Fb8l8V3XrQYDoNzCYoEpxZcU7R3eCFQyVmTcNMjJtTCjkOBl3l2en8In2zfOhtA8goAqq9Eq0EV4DY5DFx_-oP1sqsfxAg="
-    SUDO_USERS = "5095158838"
+    API_ID = "3352706"
+    API_HASH = "8c712f0779b7de1053bb4faf4151f123"
+    BOT_TOKEN = "5077138814:AAFLqvb5aUIfTYHsRjmBl7nv--5ZQu15a74"
+    STRING_SESSION = ""
+    SUDO_USERS = "5093917807"
     COMMAND_HAND_LER = environ.get("COMMAND_HAND_LER", "^/")
     HELP_MSG = """
     The Commands in the bot are:
