@@ -172,7 +172,7 @@ async def handler(event):
                                         status.remove("2")
                                     except:
                                         pass
-                                    await asyncio.sleep(1)
+                                    await asyncio.sleep(2)
                                     mcount -= 1
                                     count -= 1
                                     MessageCount += 1
@@ -196,7 +196,7 @@ async def handler(event):
                                             status.remove("2")
                                         except:
                                             pass
-                                        await asyncio.sleep(1)
+                                        await asyncio.sleep(2)
                                         mcount -= 1
                                         count -= 1
                                         MessageCount += 1
