@@ -172,7 +172,7 @@ async def handler(event):
                                         status.remove("2")
                                     except:
                                         pass
-                                    await asyncio.sleep(2)
+                                    await asyncio.sleep(1)
                                     mcount -= 1
                                     count -= 1
                                     MessageCount += 1
@@ -196,7 +196,7 @@ async def handler(event):
                                             status.remove("2")
                                         except:
                                             pass
-                                        await asyncio.sleep(2)
+                                        await asyncio.sleep(1)
                                         mcount -= 1
                                         count -= 1
                                         MessageCount += 1
@@ -211,7 +211,7 @@ async def handler(event):
                         status.add("2")
                         status.remove("1")
                         await m.edit(f"You have send {MessageCount} messages.\nWaiting for 1 hour.")
-                        await asyncio.sleep(2)
+                        await asyncio.sleep(1)
                         mcount = 991
                         print("Starting after 1 hour")
                         await m.edit("Starting after 1 hour")
@@ -221,7 +221,7 @@ async def handler(event):
                     status.add("2")
                     status.remove("1")
                     await m.edit(f"You have send {MessageCount} messages.\nWaiting for 6 hours.")
-                    await asyncio.sleep(21600)
+                    await asyncio.sleep(1)
                     count = 4000
                     print("Starting after 6 hours")
                     await m.edit("Starting after 6 hours")
