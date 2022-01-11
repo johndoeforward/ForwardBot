@@ -143,7 +143,7 @@ async def handler(event):
             fromchat = int(fromchannel)
             tochat = int(tochannel)
             count = 5000
-            mcount = 991
+            mcount = 1500
             global MessageCount
             offset = int(offsetid)
             if offset:
@@ -196,7 +196,7 @@ async def handler(event):
                                             status.remove("2")
                                         except:
                                             pass
-                                        await asyncio.sleep(2)
+                                        await asyncio.sleep(1)
                                         mcount -= 1
                                         count -= 1
                                         MessageCount += 1
@@ -207,24 +207,24 @@ async def handler(event):
                                 pass
                     else:
                         print(f"You have send {MessageCount} messages" )
-                        print("Waiting for 1 hour")
+                        print("Waiting for 10 mins")
                         status.add("2")
                         status.remove("1")
-                        await m.edit(f"You have send {MessageCount} messages.\nWaiting for 1 hour.")
-                        await asyncio.sleep(2)
-                        mcount = 991
-                        print("Starting after 1 hour")
-                        await m.edit("Starting after 1 hour")
+                        await m.edit(f"You have send {MessageCount} messages.\nWaiting for 10 minutes.")
+                        await asyncio.sleep(600)
+                        mcount = 1500
+                        print("Starting after 10 mins")
+                        await m.edit("Starting after 10 mins")
                 else:
                     print(f"You have send {MessageCount} messages")
-                    print("Waiting for 6 hours")
+                    print("Waiting for 30 mins")
                     status.add("2")
                     status.remove("1")
-                    await m.edit(f"You have send {MessageCount} messages.\nWaiting for 6 hours.")
+                    await m.edit(f"You have send {MessageCount} messages.\nWaiting for 1 hour.")
                     await asyncio.sleep(86400)
                     count = 5000
-                    print("Starting after 6 hours")
-                    await m.edit("Starting after 6 hours")
+                    print("Starting after 1 hour")
+                    await m.edit("Starting after 1 hour")
                     
         except ValueError:
             await m.edit("You must join the channel before starting forwarding. Use /join")
