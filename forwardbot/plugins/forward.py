@@ -142,7 +142,7 @@ async def handler(event):
             m=await event.respond("Trying Forwarding")
             fromchat = int(fromchannel)
             tochat = int(tochannel)
-            count = 4000
+            count = 4500
             mcount = 1500
             global MessageCount
             offset = int(offsetid)
@@ -222,7 +222,7 @@ async def handler(event):
                     status.remove("1")
                     await m.edit(f"You have send {MessageCount} messages.\nWaiting for 1 hour.")
                     await asyncio.sleep(86400)
-                    count = 4000
+                    count = 4500
                     print("Starting after 1 hour")
                     await m.edit("Starting after 1 hour")
                     
